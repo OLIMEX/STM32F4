@@ -1,0 +1,32 @@
+Hardware revision C
+========
+1. Removed FET1 and fixed TVS symbol (it is unidirectional and can also provide protection).
+
+Hardware revision D
+=========
+1. New PHY controller.
+
+Hardware revision E
+=========
+1. R5 changed from 10k/1% to 10k;
+2. R70(0R) chaged to 10k and renamed to R13, also added C26=10uF/6.3V and also removed RST wire from the PHY!;
+3. SD/MMC package changed to the newer version;
+4. WKUP and RESET packages were changed to WS-TAKT_6X3.5_SMD_NOCREAM;
+5. Everything was re-numbered, so there are no missing numbers.
+6. C4 was changed from 100nF to 10uF/6.3V;
+7. Added R54 = 47k Pull-up to Rx line;
+8. C21, C23 changed from 15pF to 4.7pF.
+
+Hardware revision F
+========
+1. Fixed jumper names white print B0.1/B0.1 and B1.1/B1.1 to B0.1/B0.0 and B1.1/B1.0
+2. Oscilatora CD1 e sys smenen package 5032 50 MHZ 25ppm 3V.
+3. New SD card connector TFC-WPAPR-08.
+4. Bottom USB changed with 2 x SY6280.
+5. Improved a lot of electrolytic capacitors with 47uF/6.3V 
+6. Changed ferrite beads from 200mA to 2A
+7. DC-DC MP1482DS changed with MP1584EN(SOIC8E).
+8. Added capacitors on the LAN's shield.
+9. L2 is now FB0805/600R/2A.
+10. Increased R31 and R21 from 549R to 1.1K
+11. Increased R50 and R26 from 1k to 2k
